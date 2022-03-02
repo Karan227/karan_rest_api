@@ -7,8 +7,8 @@ const user_error={
 };
 const user = {
     is_success : true,
-    user_id : 'john_doe_17091999',email: 'john@xyz.com',
-    roll_number:'ABCD123',
+    user_id : 'karan_singh_25052001',email: '227karansingh@gmail.com',
+    roll_number:'11914069',
     numbers:[],
     alphabets:[] 
 }
@@ -33,7 +33,6 @@ router.post('/',(req,res)=>{
                 user.numbers.push(element);
             }
         });
-        // console.log(user);
         res.send(user);
     }
     user.alphabets=[];
